@@ -1,4 +1,12 @@
-# NgOriginalTemplate
+# ng-original-template-poc
+
+> POC of extracting original pieces of templates for Angular components via directive
+
+Run this app with `ng serve` and naviate to `localhost:4200`.
+
+You will see usecases of `appOriginalTemplate` directive and it's abilities.
+
+# NgOriginalTemplatePoc
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
