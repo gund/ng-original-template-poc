@@ -1,3 +1,29 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="container">
+  <div class="row">
+    <custom-tag class="col" appOriginalTemplate="custom">This is <b>custom-tag</b></custom-tag>
+    <div class="col">Template:
+      <pre><code>{{ custom }}</code></pre>
+    </div>
+
+    <div class="col" appOriginalTemplate="inner" [appOriginalTemplateInner]="true">This is <b>inner</b> template - it is always precise</div>
+    <div class="col">Template:
+      <pre><code>{{ inner }}</code></pre>
+    </div>
+
+    <div class="col" appOriginalTemplate="notPrecise">
+      Not acustom tag and not inner tag - by default not precise and may grab more than needed...
+    </div>
+    <div class="col">Template:
+      <pre><code>{{ notPrecise }}</code></pre>
+    </div>
+
+    <div class="col" appOriginalTemplate="precise" [appOriginalTemplatePrecise]="true">This is not a custom tag but precise - so will be okay!</div>
+    <div class="col">Template:
+      <pre><code>{{ precise }}</code></pre>
+    </div>
+  </div>
+</div>

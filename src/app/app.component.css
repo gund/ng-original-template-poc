@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+
+pre {
+  overflow: auto;
+  padding: 20px 5px;
+  background: lemonchiffon;
+}
