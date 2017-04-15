@@ -6,8 +6,7 @@ Run this app with `ng serve` and naviate to `localhost:4200`.
 
 You will see usecases of `appOriginalTemplate` directive and it's abilities.
 
-You can expect in a few weeks npm library based on this poc which will support
-template extraction declaratively via directive and imperatively via service.
+You can find iImplemented library [here](https://github.com/gund/ng-original-template). 
 
 # NgOriginalTemplatePoc
 
